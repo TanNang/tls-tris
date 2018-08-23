@@ -37,7 +37,7 @@ const (
 	maxHandshake      = 65536        // maximum handshake we support (protocol max is 16 MB)
 	maxWarnAlertCount = 5            // maximum number of consecutive warning alerts
 
-	minVersion = VersionTLS12
+	minVersion = VersionTLS13
 	maxVersion = VersionTLS13Draft28
 )
 
